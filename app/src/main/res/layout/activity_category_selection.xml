@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".CategorySelectionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal"
+        android:paddingTop="35dp"
+        android:text="Wybierz kategorię pytań:"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cat_biology"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="14dp"
+        android:text="Biologia"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@drawable/button_background" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cat_history"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="14dp"
+        android:text="Historia"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@drawable/button_background" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cat_technology"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="14dp"
+        android:text="Technologia"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@drawable/button_background" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cat_geography"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="14dp"
+        android:text="Geografia"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@drawable/button_background" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cat_movies"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="14dp"
+        android:text="Filmy"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@drawable/button_background" />
+
+
+</LinearLayout>
